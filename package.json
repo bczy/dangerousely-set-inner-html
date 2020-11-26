@@ -1,0 +1,25 @@
+{
+  "name": "dangerousely-set-inner-html",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-intl": "^5.10.5",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "universal-scripts": "2.5.2"
+  },
+  "scripts": {
+    "start": "universal-scripts start",
+    "build": "universal-scripts build",
+    "test": "universal-scripts test",
+    "serve": "node build/server/server.js",
+    "lint": "eslint src",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": ">=7.6"
+  }
+}
